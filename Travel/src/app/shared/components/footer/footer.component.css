@@ -1,0 +1,45 @@
+.footer {
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo i {
+    padding-left: 20px;
+    color: #216aaf;
+}
+
+.logo a {
+    color: #216aaf;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info-address {
+    padding-left: 20px;
+    color: #216aaf;
+}
+
+.info-address p {
+    margin: 0 auto;
+}
+
+.address {
+    display: flex;
+}
+
+.contact i {
+    padding: 10px;
+    color: #216aaf;
+
+}
+
+.contact {
+    margin: auto 0;
+}

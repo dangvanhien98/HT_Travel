@@ -1,0 +1,16 @@
+<div class="tour">
+  <div class="img">
+    <img src="{{ tour.img }}" alt="" width="1200px" height="250px" />
+  </div>
+  <div class="info-tour">
+    <div class="tour-name">
+      <a href="">{{ tour.name }}</a>
+    </div>
+    <div class="price-book">
+      <div>
+        <b>{{ tour.price }}&nbsp;VNĐ</b>
+      </div>
+      <div><button (click)="clickBook(tour.id)">BOOK NOW !</button></div>
+    </div>
+  </div>
+</div>

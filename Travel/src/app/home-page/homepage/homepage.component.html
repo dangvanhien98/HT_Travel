@@ -1,0 +1,19 @@
+<div class="header">
+  <app-header></app-header>
+</div>
+
+<div class="tour-featured">
+  <div class="title-featured">
+    <h3>Tour nổi bật</h3>
+    <p>Đây là các tour được nhiều người săn đón trong năm nay</p>
+  </div>
+  <div class="tour">
+    <ng-container *ngFor="let item of tours">
+      <app-item-tour [tour]="item"></app-item-tour>
+    </ng-container>
+  </div>
+</div>
+
+<div>
+  <app-footer></app-footer>
+</div>
